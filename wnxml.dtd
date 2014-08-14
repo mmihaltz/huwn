@@ -1,0 +1,49 @@
+
+<!ELEMENT WNXML (SYNSET+)>
+
+<!ELEMENT SYNSET (ID, ID3?, POS, SYNONYM, ILR*, DEF?, BCS?, USAGE*, SNOTE*, STAMP?, DOMAIN?, SUMO*, NL?, TNL?, ELR*, ELR3*, EQ_NEAR_SYNONYM*, EQ_HYPERNYM*, EQ_HYPONYM*, EKSZ*, VFRAME*)>
+
+<!ELEMENT ID (#PCDATA)>
+
+<!-- Synset ID mapped to Princeton WordNet 3.0 -->
+<!ELEMENT ID3 (#PCDATA)>
+
+<!ELEMENT POS (#PCDATA)>
+
+<!ELEMENT SYNONYM (LITERAL*)>
+<!ELEMENT LITERAL (#PCDATA | SENSE | LNOTE | NUCLEUS)*>
+<!ELEMENT SENSE (#PCDATA)>
+<!ELEMENT LNOTE (#PCDATA)>
+<!ELEMENT NUCLEUS (#PCDATA)>
+
+<!ELEMENT ILR (#PCDATA | TYPE)*>
+<!ELEMENT TYPE (#PCDATA)>
+
+<!ELEMENT DEF (#PCDATA)>
+<!ELEMENT BCS (#PCDATA)>
+<!ELEMENT USAGE (#PCDATA)>
+<!ELEMENT SNOTE (#PCDATA)>
+<!ELEMENT STAMP (#PCDATA)>
+<!ELEMENT DOMAIN (#PCDATA)>
+<!ELEMENT SUMO (#PCDATA | TYPE)*>
+<!ELEMENT NL (#PCDATA)>
+
+<!-- "Technical Non-Lexicalized" -->
+<!ELEMENT TNL (#PCDATA)>
+
+<!-- External linguistic relations; pointers to ILI synsets with their types (Princeton WordNet 2.0) -->
+<!ELEMENT ELR (#PCDATA | TYPE)*>
+
+<!-- External linguistic relations; pointers to ILI synsets with their types (Princeton WordNet 3.0) -->
+<!ELEMENT ELR3 (#PCDATA | TYPE)*>
+
+<!-- these 3 are retained for backward compatibility, ELR tag should be used instead -->
+<!ELEMENT EQ_NEAR_SYNONYM (#PCDATA)>
+<!ELEMENT EQ_HYPERNYM (#PCDATA)>
+<!ELEMENT EQ_HYPONYM (#PCDATA)>
+
+<!-- EKSZ dictinary sense id + pointer type -->
+<!ELEMENT EKSZ (#PCDATA | TYPE)*>
+
+<!-- verb frame id + pointer type -->
+<!ELEMENT VFRAME (#PCDATA | TYPE)*>
