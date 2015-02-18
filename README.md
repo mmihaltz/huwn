@@ -60,6 +60,11 @@ new_sense_numbers.2015-02-18.txt.gz -- List of sense numbers changed in Release 
 
 README.md -- you are here
 
+Linked Open Data version of Hungarian WordNet
+
+An RDF format version is available for the semantic web, which uses existing schemas and links to other existing resources.
+Please visit: https://github.com/mmihaltz/huwn.rdf
+
 How to use HuWN with the VisDic browser/editor
 
 TODO
