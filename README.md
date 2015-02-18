@@ -68,6 +68,6 @@ Command-line tool (Windows, Linux)
 
 TODO
 
-API (C++, Python)
-
-TODO
+APIs:
+- Pyhton 3 API: https://github.com/ppke-nlpg/pywnxml
+- C++: coming soon
