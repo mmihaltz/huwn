@@ -11,6 +11,7 @@ Release 2015-02-18:
 - Internal relations lists uniq'ed in synsets
 - XML now contains inverted relations as well
 - no LF characters in XML file
+- fixed synset ENG20-00981788-v: nl_emphasize:4 -> nl_emphasise:1
 
 Release 2014-08-14:
 - Added mapping to Princeton WordNet 3.0 ILI synsets (see new ID3 and ELR3 tags).
