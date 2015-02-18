@@ -1,12 +1,16 @@
 Hungarian Wordnet (HuWN) / Magyar WordNet
 
-Release date: 2014-08-14
-
 Maintainer: 
 Márton Miháltz <mmihaltz@gmail.com>
 http://www.nytud.hu/depts/corpus/Mihaltz_Marton.html
 
 History of changes:
+
+Release 2015-02-18:
+- Fixed sense numbers: no duplicates, consecutive numbering (starting from 1) for literals in a PoS, trying to preserve original order
+- Internal relations lists uniq'ed in synsets
+- XML now contains inverted relations as well
+- no LF characters in XML file
 
 Release 2014-08-14:
 - Added mapping to Princeton WordNet 3.0 ILI synsets (see new ID3 and ELR3 tags).
@@ -49,7 +53,10 @@ List of files in this release:
 
 huwn.xml -- the HuWN database in (extended) BalkaNet/Global WordNet XML format
 wnxml.dtd -- DTD for huwn.xml
-PWN20-30_unmapped_ids.txt -- list of HuWN synset ids based on PWN20 that could not be mapped to PWN30 because they were missing from the mapping files
+
+PWN20-30_unmapped_ids.2014-08-14.txt.gz -- list of HuWN synset ids based on PWN20 that could not be mapped to PWN30 because they were missing from the mapping files
+new_sense_numbers.2015-02-18.txt.gz -- List of sense numbers changed in Release 2015-02-18. Tab-separated: synset id (PWN20), literal, old sense number, new sense number
+
 README.md -- you are here
 
 How to use HuWN with the VisDic browser/editor
