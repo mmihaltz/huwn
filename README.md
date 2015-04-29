@@ -89,4 +89,4 @@ You can use [wnxmlconsole.py](https://github.com/ppke-nlpg/pywnxml) to execute a
 
 ##License
 
-META-SHARE Commons BY NC ND Licence v1.0 (see LICENSE.pdf, or [META-SHARE licenses](http://www.meta-net.eu/meta-share/licenses))
+META-SHARE Commons BY NC ND License v1.0 (see LICENSE.pdf, or [META-SHARE licenses](http://www.meta-net.eu/meta-share/licenses))
