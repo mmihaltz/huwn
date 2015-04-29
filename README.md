@@ -87,10 +87,6 @@ Please visit: https://github.com/dlt-rilmta/huwn.rdf
 
 You can use [wnxmlconsole.py](https://github.com/ppke-nlpg/pywnxml) to execute all kinds of queries using simple text commmands on the XML database.
 
-##How To Use HuWN With The VisDic Browser/Editor
-
-TODO
-
 ##License
 
 GNU General Public License v3.0 (see LICENSE.txt)
