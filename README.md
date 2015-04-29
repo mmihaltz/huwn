@@ -24,11 +24,10 @@ Release 2014-08-14:
   The file PWN20-30_unmapped_ids.txt contains the list of HuWN ids (based on PWN20) that could not be mapped to PWN30 ids (ids that were not included in the mapping).
 - Character encoding is now UTF-8 instead of ISO-8859-2.
 - The DTD was updated to reflect changes.
-- This release is based on the previous release dated 2009-09-05 (http://www.inf.u-szeged.hu/rgai/nlp?lang=en&page=nlpproj_hunont),
-  which is a revised version of HuWN produced in the Hungarian WordNet Project, completed in 2005-2007, funded by grant GVOP 3.1.1-2004-05-0191/3.0 and executed by a consortium of:
-  Research Institute for Linguistics, Hungarian Academy of Sciences (RIL-MTA)
-  The University of Szeged
-  MorphoLogic Ltd.
+- This release is based on the [previous release]((http://www.inf.u-szeged.hu/rgai/nlp?lang=en&page=nlpproj_hunont) dated 2009-09-05, which is a revised version of HuWN produced in the Hungarian WordNet Project completed in 2005-2007, funded by grant GVOP 3.1.1-2004-05-0191/3.0 and executed by a consortium of:
+  * Research Institute for Linguistics, Hungarian Academy of Sciences (RIL-MTA)
+  * University of Szeged
+  * MorphoLogic Ltd.
 
 
 ##Paper
