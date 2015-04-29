@@ -30,12 +30,24 @@ Release 2014-08-14:
   * MorphoLogic Ltd.
 
 
-##Paper
+##Citing
 
-Please cite the following paper:
+When writing about HuWN, please cite the following paper:
 
 Miháltz, Márton, Csaba Hatvani, Judit Kuti, György Szarvas, János Csirik, Gábor Prószéky, Tamás Váradi: Methods and Results of the Hungarian WordNet Project. In: Proceedings of The Fourth Global WordNet Conference, Szeged, Hungary (2008), pp. 311–321.
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6139&rep=rep1&type=pdf
+
+BibTeX entry:
+```
+@Inproceedings{Mihaltzetal2008HuWN,
+  Title                    = {Methods and Results of the Hungarian WordNet Project},
+  Author                   = {M{\'{a}}rton Mih{\'{a}}ltz and Csaba Hatvani and Judit Kuti and Gy{\"{o}}rgy Szarvas and J{\'{a}}nos Csirik and G{\'{a}}bor Pr{\'{o}}sz{\'{e}}ky and Tam{\'{a}}s V{\'{a}}radi},
+  Booktitle                = {Proceedings of The Fourth Global WordNet Conference},
+  Year                     = {2008},
+  Location                 = {Szeged, Hungary},
+  Pages                    = {311--321}
+}
+```
 
 ##Summary
 
@@ -60,6 +72,7 @@ and most HuWN verbs synsets are also mapped to a verb frame description entry in
 * PWN20-30_unmapped_ids.2014-08-14.txt.gz -- list of HuWN synset ids based on PWN20 that could not be mapped to PWN30 because they were missing from the mapping files
 * new_sense_numbers.2015-02-18.txt.gz -- List of sense numbers changed in Release 2015-02-18. Tab-separated: synset id (PWN20), literal, old sense number, new sense number
 * README.md -- you are here
+* LICENSE.txt -- license information
 
 ##Linked Open Data (RDF) Version of Hungarian WordNet
 
@@ -80,4 +93,4 @@ TODO
 
 ##License
 
-TODO
+GNU General Public License v3.0 (see LICENSE.txt)
