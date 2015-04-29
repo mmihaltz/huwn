@@ -1,8 +1,7 @@
 #Hungarian Wordnet (HuWN) / Magyar WordNet
 
 Maintainer: 
-Márton Miháltz <mmihaltz@gmail.com>
-http://www.nytud.hu/depts/corpus/Mihaltz_Marton.html
+[Márton Miháltz](http://www.nytud.hu/depts/corpus/Mihaltz_Marton.html) <mmihaltz@gmail.com>
 
 ##Changes
 
@@ -31,6 +30,9 @@ Release 2014-08-14:
   The University of Szeged
   MorphoLogic Ltd.
 
+
+##Paper
+
 Please cite the following paper:
 
 Miháltz, Márton, Csaba Hatvani, Judit Kuti, György Szarvas, János Csirik, Gábor Prószéky, Tamás Váradi: Methods and Results of the Hungarian WordNet Project. In: Proceedings of The Fourth Global WordNet Conference, Szeged, Hungary (2008), pp. 311–321.
@@ -52,7 +54,7 @@ Each HuWN synset is mapped to 1 or more English (Princeton) WordNet synsets serv
 Most HuWN sysnets are also mapped to an entry in the Magyar Ertelmezo Keziszotar (EKSz) Hungarian monolingual explanatory dictionary,
 and most HuWN verbs synsets are also mapped to a verb frame description entry in the MetaMorpho grammar.
 
-##List of Files In This Release
+##Files
 
 * huwn.xml -- the HuWN database in (extended) BalkaNet/Global WordNet XML format
 * wnxml.dtd -- DTD for huwn.xml
@@ -60,7 +62,7 @@ and most HuWN verbs synsets are also mapped to a verb frame description entry in
 * new_sense_numbers.2015-02-18.txt.gz -- List of sense numbers changed in Release 2015-02-18. Tab-separated: synset id (PWN20), literal, old sense number, new sense number
 * README.md -- you are here
 
-##Linked Open Data version of Hungarian WordNet
+##Linked Open Data (RDF) Version of Hungarian WordNet
 
 An RDF format version is available for the semantic web, which uses existing schemas and links to other existing resources.
 Please visit: https://github.com/dlt-rilmta/huwn.rdf
