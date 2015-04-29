@@ -6,6 +6,10 @@ http://www.nytud.hu/depts/corpus/Mihaltz_Marton.html
 
 ##Changes
 
+Release 2015-04-29:
+- 3162 definitions were edited
+- new URL of the project is now https://github.com/dlt-rilmta/huwn
+
 Release 2015-02-18:
 - Fixed sense numbers: no duplicates, consecutive numbering (starting from 1) for literals in a PoS, trying to preserve original order
 - Internal relations lists uniq'ed in synsets
