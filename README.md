@@ -5,9 +5,12 @@ Maintainer:
 
 ##Changes
 
+Release 2015-06-03:
+- 2688 definitions were edited
+
 Release 2015-04-29:
 - 3162 definitions were edited
-- new URL of the project is now https://github.com/dlt-rilmta/huwn
+- URL of the project is now https://github.com/dlt-rilmta/huwn
 
 Release 2015-02-18:
 - Fixed sense numbers: no duplicates, consecutive numbering (starting from 1) for literals in a PoS, trying to preserve original order
