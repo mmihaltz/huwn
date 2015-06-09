@@ -5,6 +5,9 @@ Maintainer:
 
 ##Changes
 
+Release 2015-06-09:
+- 52 definitions were edited. Definition rewriting completed.
+
 Release 2015-06-03:
 - 2688 definitions were edited
 
