@@ -1,9 +1,9 @@
-#Hungarian Wordnet (HuWN) / Magyar WordNet
+# Hungarian Wordnet (HuWN) / Magyar WordNet
 
 Maintainer: 
 [Márton Miháltz](http://www.nytud.hu/depts/corpus/Mihaltz_Marton.html) <mmihaltz@gmail.com>
 
-##Changes
+## Changes
 
 Release 2015-06-09:
 - 52 definitions were edited. Definition rewriting completed.
@@ -36,7 +36,7 @@ Release 2014-08-14:
   * MorphoLogic Ltd.
 
 
-##Citing
+## Citing
 
 When writing about HuWN, please cite the following paper:
 
@@ -55,7 +55,7 @@ BibTeX entry:
 }
 ```
 
-##Summary
+## Summary
 
 HuWN contains 42288 synsets:
 
@@ -71,7 +71,7 @@ Each HuWN synset is mapped to 1 or more English (Princeton) WordNet synsets serv
 Most HuWN sysnets are also mapped to an entry in the Magyar Ertelmezo Keziszotar (EKSz) Hungarian monolingual explanatory dictionary,
 and most HuWN verbs synsets are also mapped to a verb frame description entry in the MetaMorpho grammar.
 
-##Files
+## Files
 
 * huwn.xml -- the HuWN database in (extended) BalkaNet/Global WordNet XML format
 * wnxml.dtd -- DTD for huwn.xml
@@ -80,20 +80,20 @@ and most HuWN verbs synsets are also mapped to a verb frame description entry in
 * README.md -- you are here
 * LICENSE.txt -- license information
 
-##Linked Open Data (RDF) Version of Hungarian WordNet
+## Linked Open Data (RDF) Version of Hungarian WordNet
 
 An RDF format version is available for the semantic web, which uses existing schemas and links to other existing resources.
 Please visit: https://github.com/dlt-rilmta/huwn.rdf
 
-##APIs
+## APIs
 - Pyhton 3 API: https://github.com/ppke-nlpg/pywnxml
 - C++ API: https://github.com/mmihaltz/libWNXML
 
-##Command-line Tools
+## Command-line Tools
 
 - You can use [wnxmlconsole.py](https://github.com/ppke-nlpg/pywnxml) to execute all kinds of queries using simple text commmands on the XML database.
 - [libWNXML](https://github.com/mmihaltz/libWNXML) includes a **Windows** binary executable of the same console application.
 
-##License
+## License
 
 META-SHARE Commons BY NC ND License v1.0 (see LICENSE.pdf, or [META-SHARE licenses](http://www.meta-net.eu/meta-share/licenses))
