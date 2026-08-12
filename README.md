@@ -5,6 +5,9 @@ Maintainer:
 
 ## Changes
 
+Update 2026-08-12
+- license changed to [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 Release 2015-06-09:
 - 52 definitions were edited. Definition rewriting completed.
 
@@ -96,4 +99,4 @@ Please visit: https://github.com/dlt-rilmta/huwn.rdf
 
 ## License
 
-META-SHARE Commons BY NC ND License v1.0 (see LICENSE.pdf, or [META-SHARE licenses](http://www.meta-net.eu/meta-share/licenses))
+[Creative Commons (CC) BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
